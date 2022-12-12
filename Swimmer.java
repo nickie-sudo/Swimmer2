@@ -2,7 +2,7 @@
 /**
  * Abstract class Swimmer - write a description of the class here
  *
- * @author (your name here)
+ * @author Nicholas Marino and Alex Lowczyk
  * @version (version number or date here)
  */
 public abstract class Swimmer
