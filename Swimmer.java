@@ -24,7 +24,7 @@ public abstract class Swimmer
         age = 17;
         skillLevel = "intermediate";
     }
-  public void printStats();
+  public void prepStance();
     
     public void getBetterKiddo()
    {
