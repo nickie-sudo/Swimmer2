@@ -1,8 +1,8 @@
 /**
- * Abstract class Swimmer - write a description of the class here
- *
+ * Abstract class Swimmer 
+ * 
  * @author Nicholas Marino and Alex Lowczyk
- * @version (version number or date here)
+ * @version 12/14/22
  */
 
 public abstract class Swimmer
@@ -24,13 +24,13 @@ public abstract class Swimmer
         age = 17;
         skillLevel = "intermediate";
     }
-
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
+    * public void getSwimmerInfo()
+   * {
+        Possible Method?
+   * }
+    */
+
     public int getAge()
     {
         // put your code here
