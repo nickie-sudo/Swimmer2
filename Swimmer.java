@@ -24,12 +24,12 @@ public abstract class Swimmer
         age = 17;
         skillLevel = "intermediate";
     }
-    /**
-    * public void getSwimmerInfo()
-   * {
-        Possible Method?
-   * }
-    */
+  
+    public void increaseSkilLevel()
+   {
+       skillLevel += 1;
+   }
+
 
     public int getAge()
     {
