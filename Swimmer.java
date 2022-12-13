@@ -33,7 +33,6 @@ public abstract class Swimmer
 
     public int getAge()
     {
-        // put your code here
         return age;
     }
     public String getSkillLevel() 
