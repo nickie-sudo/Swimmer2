@@ -25,11 +25,10 @@ public abstract class Swimmer
         skillLevel = "intermediate";
     }
   
-    public void increaseSkilLevel()
+    public void getBetterKiddo()
    {
        skillLevel += 1;
    }
-
 
     public int getAge()
     {
