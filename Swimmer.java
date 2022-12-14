@@ -23,6 +23,13 @@ public abstract class Swimmer
         height = 72;
         age = 17;
         skillLevel = "intermediate";
+        public Swimmer(int a, int h, String n, String s)
+        {
+            
+           age = a;
+            height = h;
+            name = n;
+            skillLevel = s;
     }
   public void prepStance();
     
