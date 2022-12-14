@@ -31,7 +31,7 @@ public abstract class Swimmer
             name = n;
             skillLevel = s;
     }
-  public void prepStance();
+  public abstract void prepStance();
     
     public void getBetterKiddo()
    {
