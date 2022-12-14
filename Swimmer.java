@@ -45,5 +45,9 @@ public abstract class Swimmer
     public String getSkillLevel() 
     {
       return skillLevel;  
+    }  
+    public String toString() 
+    {
+      return "Swimmer: '" + this.name + "', Height: '" + this.height + "', Skill Level: '" + this.skillLevel + "'";
     }
 }
