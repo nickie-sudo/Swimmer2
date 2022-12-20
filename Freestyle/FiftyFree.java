@@ -1,4 +1,4 @@
-public class FifityFree
+public class FifityFree extends Freestyle implements Comparable<FifityFree>
 {
     private double personalBest;
     private double firstFiftyTime;
@@ -55,6 +55,6 @@ public class FifityFree
 
     public int compareTo(FifityFree free)
     {
-        return 1;
+        return free.amtOfPeopleCheering - this.amtOfPeopleCheering;
     }
 }
