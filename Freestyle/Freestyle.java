@@ -44,7 +44,7 @@ public class Freestyle extends Swimmer
 
     public void addFavoriteDrill(String newFavorite)
     {
-        
+        favoriteDrill = newFavorite;
     }
     
     public String toString() 
