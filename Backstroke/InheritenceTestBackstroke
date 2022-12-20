@@ -1,0 +1,10 @@
+public static void main() 
+    {
+        BackStroker b1 = new BackStroker(17, 72, "Alex", "Intermediate", 4, "Catch-up", 3);
+        FiftyBack f1 = new FiftyBack(15, 64, "Finn", "Intermediate", 6, "6-Second", 6.7, 39.45, 23.24, 16.21,11);
+        b1.prepStance();
+        f1.congratsYoureFasterNow(38.45,22.24,16.21,12);
+        b1.learnNewDrill("Cool Thing");
+        f1.haveLongerArms();
+        
+    }
